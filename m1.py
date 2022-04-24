@@ -13,7 +13,7 @@ from googletrans import Translator
 botStart = time.time()
 #==============================================================================#
 #line = LINE()
-#line = LINE("เมล","พาส")
+#line = LINE("saniklas1@gmail.com","5644123za")
 line = LINE()
 line.log("Auth Token : " + str(line.authToken))
 line.log("Timeline Token : " + str(line.tl.channelAccessToken))
@@ -35,8 +35,8 @@ Exc = [line]
 lineMID = line.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID]
-Family=["u1b675a67ddec7aa8397491abe9d80a7a",lineMID]
-admin=['u1b675a67ddec7aa8397491abe9d80a7a',lineMID]
+Family=["u6e9c13a0611a467eaa4abdfb0b5e076d",lineMID]
+admin=['u6e9c13a0611a467eaa4abdfb0b5e076d',lineMID]
 RfuFamily = RfuBot + Family
 
 protectname = []
